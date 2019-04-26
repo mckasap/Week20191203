@@ -16,6 +16,6 @@ public class MainActivity extends AppCompatActivity {
         v.getSettings().setJavaScriptEnabled(true);
         v.setWebViewClient( new WebViewClient());
 //        v.loadUrl("https://obs.ticaret.edu.tr");
-v.loadData("<html><body> <h1> MERHBA DÜNYA şÜüüiiııİİöçÖÇğğğğĞĞŞŞŞ</h1><p> bu da bir paragraf</p></body></html> ","text/html","UTF-8");
+v.loadData("<html><body> <h1> MERHBA DÜNYA şÜüüiiııİİöçÖÇğğğğĞĞŞŞŞ</h1><p> bu da bir paragraf</p></body></html> ","text/html","ASCII");
     }
 }
